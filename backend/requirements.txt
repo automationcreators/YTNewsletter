@@ -1,0 +1,43 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Configuration
+python-dotenv
+pydantic-settings
+email-validator
+
+# Authentication
+python-jose[cryptography]
+authlib
+httpx
+
+# YouTube Integration
+google-api-python-client
+youtube-transcript-api
+yt-dlp
+
+# LLM Providers
+openai
+anthropic
+
+# Task Queue
+celery
+redis
+
+# HTTP & Scraping
+requests
+beautifulsoup4
+
+# Testing
+pytest
+pytest-asyncio
+
+# Utilities
+python-multipart
+jinja2
