@@ -1,0 +1,28 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
